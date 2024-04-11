@@ -1,0 +1,45 @@
+/* Aumentar o tamanho de todos os parágrafos */
+* {
+  p {
+    font-size: 1.2rem;
+  }
+}
+
+/* h1 com Gustavo Soares de Souza */
+#nome {
+  font-size: 3.5rem;
+  border-bottom: 2px solid black;
+  display: inline-block;
+  margin: 25px;
+}
+
+/* Navegação como um todo */
+.navegacao {
+  font-size: 1.8rem;
+  display: inline-block;
+  padding-left: 80px;
+}
+
+/* Elementos da navegação */
+#a1 {
+  padding: 30px;
+}
+
+#a2 {
+  padding: 30px;
+}
+
+#a3 {
+  padding: 30px;
+}
+
+#a4 {
+  padding: 30px;
+}
+
+#contato{
+  font-size: 20px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 100px;
+}
