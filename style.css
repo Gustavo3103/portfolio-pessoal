@@ -1,0 +1,37 @@
+* {
+    background-color: rgb(155, 155, 155);
+}
+
+.nome {
+    color: white;
+    border-radius: 7px;
+    background-color: rgb(63, 63, 63);
+    border: 3px solid black;
+    display: inline-block;
+    padding: 1.2rem;
+}
+
+.navegacao{
+    display: inline-block;
+}
+
+
+
+#a1, #a2, #a3, #a4{
+    padding-right: 4rem;
+    padding-left: 4rem;
+    padding-bottom: 1.2rem;
+    padding-top: 1.2rem;
+
+    margin-right: 3rem;
+    margin-left: 2rem;
+    border-bottom: 2px solid black;
+}
+
+.navegacao>a:hover{
+color: black;
+border-radius: 10px;
+border: 3px solid black;
+}
+
+
