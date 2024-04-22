@@ -5,6 +5,7 @@
     font-style: normal;
 }
 
+
 .nome {
     color: white;
     border-radius: 7px;
@@ -50,5 +51,8 @@
 
 .navegacao>a:link {
     color: black;
+}
+.navegacao>a:visited{
+color: black;
 }
 
