@@ -5,12 +5,11 @@
     font-style: normal;
 }
 
-
 .nome {
     color: white;
     border-radius: 7px;
-    background-color: rgb(100, 100, 100);
-    border: 3px solid black;
+    border: 3px solid rgb(77, 77, 77);
+    background-color: rgb(122, 122, 122);
     display: inline-block;
     padding: 1.3rem;
 
@@ -32,21 +31,19 @@
 #a2,
 #a3,
 #a4 {
-    padding-right: 4rem;
-    padding-left: 4rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
     padding-bottom: 1.2rem;
     padding-top: 1.2rem;
 
     margin-right: 3rem;
     margin-left: 2rem;
-    transition: 0.3s ease;
+    transition-duration: 0.4s;
 }
 
 .navegacao>a:hover {
     color: black;
-    border-radius: 10px;
-    border: 3px solid rgb(97, 97, 97);
-    font-size: 1.1rem;
+    border-radius: 150px;
     background-color: rgb(143, 143, 143);
     transition: 0.4s;
 }
