@@ -1,58 +1,108 @@
 * {
-    background-color: rgb(182, 182, 182);
     font-family: "Mukta", sans-serif;
-    font-weight: 400;
     font-style: normal;
+}
+
+body {
+    background-image: linear-gradient(to bottom, rgb(209, 209, 209), rgb(117, 117, 117));
+    margin: 0px 30px;
 }
 
 
 .titulo {
     color: white;
-    border-radius: 7px;
-    border: 3px solid rgb(77, 77, 77);
+    border-radius: 30px;
     background-color: rgb(122, 122, 122);
     display: inline-block;
-    padding: 1.3rem;
-
-    font-family: "Mukta", sans-serif;
-    font-weight: 200;
-    font-style: normal;
+    padding: 1.2rem;
 }
 
-.navegacao {
-    display: inline-block;
-    font-family: "Mukta", sans-serif;
-    font-weight: 200;
+
+
+.ola {
+    font-size: 4rem;
+    width: 60rem;
+    height: 10rem;
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
     font-style: normal;
+    float: left;
 }
+
+.foto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    width: 310px;
+    height: 450px;
+
+    margin-top: 4rem;
+    margin-bottom: 10rem;
+    box-shadow: 20px 20px 20px;
+}
+
+
 
 
 
 #a1,
 #a2,
-#a3,
-#a4 {
-    padding-right: 3rem;
-    padding-left: 3rem;
-    padding-bottom: 1.2rem;
-    padding-top: 1.2rem;
+#a3 {
+    text-decoration: none;
+
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 15px;
+    padding-top: 15px;
 
     margin-right: 3rem;
-    margin-left: 2rem;
-    transition-duration: 0.4s;
+    margin-left: 3rem;
+    transition: 0.4s;
 }
 
-.navegacao>a:hover {
+a:hover {
     color: black;
-    border-radius: 150px;
-    background-color: rgb(143, 143, 143);
-    transition: 0.4s;
+    border-radius: 5rem;
+    background-color: #a5a5a5;
+}
+
+
+
+.navegacao {
+    display: inline-block;
 }
 
 .navegacao>a:link {
     color: black;
 }
-.navegacao>a:visited{
-color: black;
+
+.navegacao>a:visited {
+    color: black;
 }
 
+
+
+#sobremim,
+#objetivos {
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+p {
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+#contato {
+    margin-top: 400px;
+    font-weight: 400;
+}
+
+#email,
+#tel {
+    display: inline-block;
+    padding-right: 3rem;
+}
