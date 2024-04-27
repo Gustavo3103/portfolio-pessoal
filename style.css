@@ -5,71 +5,42 @@
 
 body {
     background-image: linear-gradient(to bottom, rgb(209, 209, 209), rgb(117, 117, 117));
-    margin: 0px 30px;
+    margin: 0px 95px;
 }
 
+p {
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
 
+/* Header - Menu de navegação */
 .titulo {
     color: white;
-    border-radius: 30px;
+    border-radius: 40px;
     background-color: rgb(122, 122, 122);
     display: inline-block;
     padding: 1.2rem;
 }
 
-
-
-.ola {
-    font-size: 4rem;
-    width: 60rem;
-    height: 10rem;
-
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-    float: left;
-}
-
-.foto {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50px;
-    width: 310px;
-    height: 450px;
-
-    margin-top: 4rem;
-    margin-bottom: 10rem;
-    box-shadow: 20px 20px 20px;
-}
-
-
-
-
-
 #a1,
 #a2,
 #a3 {
     text-decoration: none;
+    margin-right: 3rem;
+    margin-left: 3rem;
 
-    padding-right: 2rem;
-    padding-left: 2rem;
+    padding-right: 30px;
+    padding-left: 30px;
     padding-bottom: 15px;
     padding-top: 15px;
 
-    margin-right: 3rem;
-    margin-left: 3rem;
-    transition: 0.4s;
+    transition: 0.5s;
 }
 
 a:hover {
-    color: black;
-    border-radius: 5rem;
+    border-radius: 100px;
     background-color: #a5a5a5;
 }
-
-
 
 .navegacao {
     display: inline-block;
@@ -85,24 +56,75 @@ a:hover {
 
 
 
+/* Banner */
+.banner {
+    display: flex;
+    padding: 70px 0px;
+}
+
+.ola {
+    width: 50%;
+    font-size: 4rem;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.foto {
+    border-radius: 50px;
+    width: 310px;
+    height: 450px;
+    box-shadow: 20px 20px 20px;
+    margin-left: 260px;
+}
+
+.euios {
+    border-radius: 50px;
+    width: 330px;
+    height: 450px;
+}
+
+.meta {
+    width: 500px;
+    height: 400px;
+}
+
+
+/* Main */
 #sobremim,
 #objetivos {
     font-size: 2.5rem;
     font-weight: 300;
 }
 
-p {
-    font-size: 1.5rem;
-    font-weight: lighter;
+
+.t2 {
+    margin-top: 230px;
 }
 
+
+
+/* Footer */
 #contato {
-    margin-top: 400px;
+    margin-top: 100px;
     font-weight: 400;
 }
 
-#email,
-#tel {
+.email,
+.tel {
     display: inline-block;
-    padding-right: 3rem;
+    padding-right: 70px;
+}
+
+.fotoemail {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.fototel {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
 }
